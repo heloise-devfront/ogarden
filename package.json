@@ -1,0 +1,11 @@
+{
+  "name": "ogarden",
+  "version": "4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

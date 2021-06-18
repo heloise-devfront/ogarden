@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;800&family=Rum+Raisin&display=swap");
+body {
+  max-width: 100%;
+  margin: 0;
+  background-color: #fff;
+}
+
+main {
+  font-family: "Nunito", sans-serif;
+  line-height: 1;
+  max-width: 1400px;
+  margin: 0;
+}
+
+p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+}
+
+h1 {
+  font-family: "Rum Raisin", sans-serif;
+  font-size: 40px;
+  line-height: 0;
+  color: #9CB227;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 25px;
+  color: #000;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #AC182D;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 50px;
+  color: #9CB227;
+}
+
+a {
+  font-weight: 800;
+  font-size: 35px;
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  object-fit: cover;
+}
+
+ul, li, figcaption {
+  margin: 0 auto;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+  list-style-type: none;
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  display: inline;
+}
+
+.logo {
+  width: auto;
+  height: 50px;
+  float: left;
+  margin: -20px 0 0 10px;
+}
+
+.banier {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.banier__img {
+  width: 100%;
+  height: 400px;
+}
+@media (min-width: 900px) {
+  .banier__img {
+    height: 500px;
+  }
+}
+
+nav {
+  margin: -300px 0 100px 30px;
+  line-height: 50px;
+}
+@media (min-width: 900px) {
+  nav {
+    margin: -400px 0 173px 40px;
+  }
+}
+
+/*philo*/
+.philosophie {
+  display: inline-flex;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .philosophie {
+    display: inline-flex;
+    flex-wrap: nowrap;
+  }
+}
+.philosophie__img {
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .philosophie__img {
+    width: 30%;
+    height: auto;
+  }
+}
+.philosophie__txt {
+  width: 100%;
+  padding: 0 30px 30px 30px;
+}
+@media (min-width: 900px) {
+  .philosophie__txt {
+    width: 60%;
+    height: auto;
+  }
+}
+
+.imgChef {
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .imgChef {
+    width: 70%;
+    height: auto;
+  }
+}
+
+/*equipe*/
+.team {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .team {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-left: 30px;
+  }
+}
+.team__title {
+  width: 100%;
+  padding-left: 30px;
+}
+@media (min-width: 900px) {
+  .team__title {
+    width: 19%;
+    height: auto;
+    padding-left: 0;
+    padding-top: 9%;
+  }
+}
+.team__img {
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .team__img {
+    width: 81%;
+  }
+}
+
+.img-team {
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .img-team {
+    width: 97%;
+  }
+}
+
+/*menu*/
+.bg {
+  width: 100%;
+  display: table;
+  margin: 0;
+  margin-top: -5px;
+  max-width: none;
+  background-color: #fff;
+  height: 100vh;
+  background-image: url(https://img.sunset02.com/sites/default/files/image/2016/10/main/potager-garden-artful-raised-steel-bed-0712.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg__img {
+  width: 100%;
+  height: 100% auto;
+}
+
+.bg:nth-of-type(2n) {
+  background-color: #fff;
+}
+
+.menu {
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .menu {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+}
+.menu__card {
+  width: 95%;
+  height: auto;
+  text-align: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 30px 2.5%;
+}
+@media (min-width: 900px) {
+  .menu__card {
+    width: 45%;
+  }
+}
+.menu__img {
+  border: solid 2px #9CB227;
+  border-radius: 500px;
+  width: 30%;
+}
+.menu__basilic {
+  border: solid 2px #533930;
+  border-radius: 25px;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  margin-top: -50px;
+  padding-top: 50px;
+}
+.menu__citronelle {
+  border: solid 2px #533930;
+  border-radius: 25px;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  margin-top: -50px;
+  padding-top: 50px;
+}
+
+/*carte*/
+.carte {
+  width: 100%;
+}
+.carte__img {
+  width: 100%;
+  height: 350px;
+  margin-top: -5px;
+}
+@media (min-width: 900px) {
+  .carte__img {
+    height: 450px;
+  }
+}
+.carte__info {
+  margin: -350px 30px 100px 30px;
+}
+@media (min-width: 900px) {
+  .carte__info {
+    margin: -400px 30px 80px 30px;
+  }
+}
+.carte__btn {
+  width: 100%;
+  margin: 30px 0 30px 0;
+  display: inline-flex;
+  justify-content: center;
+  font-size: 25px;
+}
+@media (min-width: 900px) {
+  .carte__btn {
+    font-size: 35px;
+  }
+}
+
+.btn {
+  border: solid 3px #9CB227;
+  border-radius: 25px;
+  color: #9CB227;
+  background-color: #fff;
+  justify-content: center;
+  padding: 10px;
+}
+
+/*michelin*/
+.rate {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (min-width: 900px) {
+  .rate {
+    flex-wrap: nowrap;
+  }
+}
+.rate__img {
+  width: 25%;
+}
+.rate__txt {
+  padding: 0 30px;
+}
+
+/*reservation*/
+.reserver {
+  width: 100%;
+  height: auto;
+}
+.reserver__list {
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .reserver__list {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+}
+.reserver__card {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+@media (min-width: 900px) {
+  .reserver__card {
+    width: 50%;
+    height: 200px;
+  }
+}
+
+.grey {
+  background-color: #454545;
+}
+
+.greyWithe {
+  background-color: #fff;
+}
+@media (min-width: 900px) {
+  .greyWithe {
+    background-color: #454545;
+  }
+}
+
+.witheGrey {
+  background-color: #454545;
+}
+@media (min-width: 900px) {
+  .witheGrey {
+    background-color: #fff;
+  }
+}
+
+.title {
+  line-height: 150px;
+}
+@media (min-width: 900px) {
+  .title {
+    line-height: 100px;
+  }
+}
+
+.contact {
+  color: #9CB227;
+  line-height: 150px;
+  font-weight: 600;
+  font-size: 18px;
+}
+@media (min-width: 900px) {
+  .contact {
+    line-height: 200px;
+    font-size: 25px;
+  }
+}
+
+.far.fa-envelope {
+  color: #9CB227;
+  padding: 30px;
+}
+
+.fas.fa-phone-alt {
+  color: #9CB227;
+  padding: 30px;
+}
+
+.adresse {
+  padding-top: 50px;
+  color: #fff;
+}
+@media (min-width: 900px) {
+  .adresse {
+    color: #000;
+  }
+}
+
+/*typo*/
+@media (min-width: 900px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 900px) {
+  h2 {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 900px) {
+  h3 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 900px) {
+  p {
+    font-size: 25px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
